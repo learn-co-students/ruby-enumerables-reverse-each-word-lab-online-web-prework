@@ -1,0 +1,1 @@
+reverse_each_word("What if you found a portal to a parallel universe?")
