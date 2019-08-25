@@ -31,12 +31,14 @@ end
 
 
 
-def uses_collect(sentence2)
-  sentence2.split.collect do |joined_array| 
-    reversed_array = joined_array.reversed_array
+def reverse_each_word(sentence2)
+  sentence2.split.collect do |joined_array|
+    reversed_array = joined_array.reverse
+    
   end
   .join(' ')
 end
+
 
 
     
