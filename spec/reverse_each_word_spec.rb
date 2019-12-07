@@ -15,4 +15,16 @@ describe '#reverse_each_word' do
     expect_any_instance_of(Array).to receive(:collect).and_call_original
     reverse_each_word("Verifying that collect is being called.")
   end
+
+ describe '#reverse_each_word' do 
+   let(:sentence1) {"Hello there, and how are you?"}
+   it  'reverses all the words in a string without reversing the order of the words' do
+    expect(reverse_each_word(sentence1)).to eq("olleH ,ereht dna woh era ?uoy")
+ 
+  #=> "olleH ,ereht dna woh era ?uoy"
+
+
+
+
 end
+
